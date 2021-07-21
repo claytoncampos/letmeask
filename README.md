@@ -1,46 +1,84 @@
-# Getting Started with Create React App
+<br />
+<br />
+<h1 align="center">
+  <img alt="letmeask" src="./src/assets/logo.svg" width="420px" /> 
+  <br />
+  <br />
+  NextJS | Firebase | Typescript
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img alt="Rocketseat" src="https://img.shields.io/badge/Created%20by%3A-Rocketseat-%236D5CCD" />
+  <img alt="ClaytonCampos" src="https://img.shields.io/badge/Developed%20by%3A-ClaytonCampos-%23DD3B3F" />
+  <img alt="License MIT" src="https://img.shields.io/badge/License-MIT-%2398C611" />
+  <img alt="Typescript" src="https://img.shields.io/badge/Main%20lenguage-Typescript-%232F74C0" /> <br />
+</p> 
+<br />
+<br />
 
-## Available Scripts
+## :bookmark: Resumo
 
-In the project directory, you can run:
+<br />
 
-### `yarn start`
+Já pensou que em lives as pessoas recebem muitas perguntas, principalmente quando se ensina alguma coisa,
+ou apresenta algum produto/serviço? - Pois é, são várias perguntas e os apresentadores das lives tem que
+responder as perguntas, afinal, são clientes/possívels clientes não é mesmo?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Sabendo dessa necessidade, a <b>Rocketseat</b> no seu evento <b>NextLevelWeek</b> teve a brilhante idéia de elaborar
+um projeto que consiste no ranqueamento de perguntas para que as perguntas prioritárias dos apresentadores
+das lives sejão as mais ranqueadas ou seja, as dúvidas que são mais frequentes pela comunidade.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## :bulb: Conteúdos abordados
 
-### `yarn test`
+<br />
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- NextJS
+- React
+- Sass
+- Context API's
+- React hooks
+- Firebase
+- Variáveis ambiente
 
-### `yarn build`
+<br />
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- ## :rocket: Milha extra
+<br />
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Foram adicionadas algumas funcionalidades extras e efeitos visuais para melhorar e tornar o projeto
+ainda mais intuítivo, lembrando que este projeto foi desenvolvido por mim utilizando o NEXTJS,
+dentre as funcionalidades extras estão:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Toasts de avisos do sistemas usando o react-hot-toast
+- Modal de ações críticas do sistema utilizando o react-modal
+- Ordenação de comentários por número de likes e perguntas não respondidas
+- Redirecionamento forçado de usuários/não usuários que estão em determinada sala e o admin encerrar a mesma
+- Geração de página estática quando cadastrar nova sala (cada sala tem um arquivo único, apenas comentários são carregados dinâmicamente, motivo: ajuda no SEO no compartilhamento das páginas)
+- Redirecionamento forçado pelo backend quando alguem que NÃO seja o admin da sala tentar acessar a devida página admin
+- PWA utilizando o next-pwa
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<br />
+ -->
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## :wrench: Colocando o projeto para rodar
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<br />
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Para colocar o projeto para rodar, basta seguir o passo a passo fornecido logo abaixo:
 
-## Learn More
+- 1º: Tenha o NODE instalado na sua máquina;
+- 2º: Faça o download deste projeto;
+- 3º: Com o terminal/prompt abra o diretório deste projeto e execute o comando `npm run` ou `yarn`;
+- 4º: Enquanto executa o comando... siga o passo-a-passo para configurar o firebase neste [link-firebase](https://github.com/EddyPBR/letmeask/tree/main/.github/firebase);
+- 5º: Crie um arquivo `.env.local` no diretório raiz do projeto;
+- 6º: Copie as variaveis do arquivo `.env.example` e cole no `.env.local`, agora preencha as informações com os dados obtidos no firebase `passo 4`;
+- 7º: Após finalizado o comando do `passo 3` e com tudo finalizado, agora execute o comando `npm run dev` ou `yarn dev`;
+- 8º: Pronto tudo configurado, faça bom proveito;
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<br />
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## :memo: License
+
+Este projeto esta sob a [MIT license](LICENSE) para mais detalhes.
+<br />
